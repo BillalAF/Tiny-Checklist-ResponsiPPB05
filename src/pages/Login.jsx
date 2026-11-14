@@ -48,7 +48,7 @@ export default function Login({ auth }) {
   return (
     <main className="mx-auto grid min-h-screen max-w-md content-center gap-6 px-4 py-10">
       <div>
-        <p className="font-serif text-2xl font-mono">Tiny Checklist 🐾</p> 
+        <p className="font-mono text-4xl font-bold">Tiny Checklist 🐾</p> 
         <h1 className="mt-4">{signingUp ? 'Buat akun' : 'Masuk'}</h1>
         <p className="muted mt-1">Akun dipakai agar tugas Anda tersimpan di server dan terpisah dari pengguna lain.</p>
       </div>
