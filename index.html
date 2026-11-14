@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Catat tugas kuliah beserta tenggatnya. Data tersimpan di perangkat dan bisa dipakai tanpa internet." />
+    <meta name="theme-color" content="#f5f0e6" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <title>Tiny Checklist 🐾: Pencatat Tugas Kuliah</title>
+    <script>
+      // Pasang tema sebelum render pertama supaya layar tidak berkedip.
+      try {
+        var t = localStorage.getItem('tenggat:theme')
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
