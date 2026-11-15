@@ -12,9 +12,9 @@ export default defineConfig({
       includeAssets: ['icon.svg', 'icon-192.png', 'icon-512.png'],
       manifest: {
         id: '/',
-        name: 'Tenggat: Pencatat Tugas Kuliah',
-        short_name: 'Tenggat',
-        description: 'Catat tugas kuliah beserta tenggatnya. Data tersimpan di perangkat dan bisa dipakai tanpa internet.',
+        name: 'Tiny Checklist 🐾: Pencatat Tugas Kamuu...',
+        short_name: 'Tiny Checklist 🐾',
+        description: 'Catat tugas kamu beserta tenggatnya. Data tersimpan bisa di offline dan online',
         lang: 'id',
         start_url: '/',
         scope: '/',
